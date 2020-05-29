@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- sidebar -->
+    <section class="wrap d-flex">
+    <aside class="sidebar primary d-flex flex-column justify-content-between">
+      <div>
+      <h1 class="sidebar-logo mb-4"><a href="#">answer</a></h1>
+    <ul class="sidebar-item list-unstyled">
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">insert_chart</i>Dashboard</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">question_answer</i>Question</a></li>
+      <li class="mb-4"><a href="index.html"class="d-flex align-items-center font-weight-bold active" data-sidebar="assignment"><i class="material-icons mr-3">assignment</i>Assignment</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">video_library</i>Course</a></li>
+      <li class="mb-4"><a href="admin.html"class="d-flex align-items-center font-weight-bold adactive" data-sidebar="admin"><i class="material-icons mr-3">people</i>Admin</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">settings</i>Settings</a></li>
+    </ul>
+  </div>
+  <div class="d-flex align-items-center ml-3 pl-3">
+    <div class="problem-icon-item2 mr-2"></div>
+    <div>
+    <p class="mb-0">Andy Chen</p>
+    <small class="contain-lignt">andy0401@mail.com</small>
+  </div>
+  </div>
+    </aside>
+    <!-- Assignment -->
+<section class="assignment main container">
+  <div class="assignment-title d-flex justify-content-between align-items-center">
+    <div class="dropdown d-flex">
+      <h4 class="dropdown-title mr-5 font-weight-bold">Assignment</h4>
+      <button class="btn-white border-0 d-flex align-items-center font-weight-bold" type="button" id="dropdownMenu2"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        All Courses<i class="material-icons ml-3 icon-color">expand_more</i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button class="dropdown-item" type="button">Action</button>
+        <button class="dropdown-item" type="button">Another action</button>
+        <button class="dropdown-item" type="button">Something else here</button>
+      </div>
+    </div>
+    <div class="">
+      <label for=""><a href="#"><i class="material-icons ml-3">search</i></a></label>
+      <label for=""><a href="#"><i class="material-icons ml-3">notifications_active</i></a></label>
+    </div>
+  </div>
+  <div class="d-flex justify-content-between align-items-center">
+    <button class="btn-white border-0 d-flex align-items-center pr-0 pl-0" type="button" id="dropdownMenu2"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      All (4)
+      <i class="material-icons ml-3 icon-color">expand_more</i>
+    </button>
+    <small class="contain-lignt">2 comments</small>
+  </div>
+  <!-- Assignment Content -->
+  <div class="row">
+    <!-- Assignment leftListgroup -->
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+          href="#list-home" role="tab" aria-controls="home">
+          <div class="d-flex justify-content-between">
+            <p class="font-size-xs">Chapter Assignment 2</p><small class="font-size-xs">4 hrs ago</small>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h6>Please check this file…</h6><small class="font-size-xs">Emily Wang</small>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile"
+          role="tab" aria-controls="profile">
+          <div class="d-flex justify-content-between">
+            <p class="font-size-xs">Chapter Assignment 1</p><small class="font-size-xs">12 hrs ago</small>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h6>My Homework</h6><small class="font-size-xs">David Xu</small>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+          href="#list-messages" role="tab" aria-controls="messages">
+          <div class="d-flex justify-content-between">
+            <p class="font-size-xs">Final Assignment</p><small class="font-size-xs">18 hrs ago</small>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h6>Have a problem with this…</h6><small class="font-size-xs">Tony Wei</small>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+          href="#list-settings" role="tab" aria-controls="settings">
+          <div class="d-flex justify-content-between">
+            <p class="font-size-xs">Final Assignment</p><small class="font-size-xs">19 hrs ago</small>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h6>Did I do it right?</h6><small class="font-size-xs">Christina Lin</small>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- Assignment rightProblemreply -->
+    <div class="problem col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+          <div class="problem-card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div>
+                <p>Chapter Assignment 2 / HTML&CSS</p>
+                <h5>Please check this file for me, thanks!</h5>
+              </div>
+              <div>
+                <i class="material-icons">more_vert</i>
+              </div>
+            </div>
+            <div class="card-body d-flex">
+              <div class="problem-icon-item1 mr-2">
+              </div>
+              <div class="problem-card-line pb-3">
+                <h5 class="card-title mb-1">Emily Wang</h5>
+                <small class="contain-lignt mb-3 d-block">10:38 AM (4 hours ago)</small>
+                <p class="card-text">Hi Teacher, the attached file is my homework of chapter 2. And here comes a <br>
+                  question: Why in the following code the height of the <code>div</code> is bigger than the<br> height
+                  of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a<br>
+                  padding/margin. What is the gap or extra space below image?</p>
+                <a href="#" class="btn"><i class="material-icons mr-2">attach_file</i>HW-2-David.zip</a>
+              </div>
+            </div>
+          </div>
+          <div class="problem-card-text  card-relpy">
+            <div class="card-body d-flex">
+              <div>
+                <div class="problem-icon-item2 mr-2">
+                </div>
+              </div>
+              <div>
+                <h5 class="card-title mb-1">Andy Chen (You)</h5>
+                <small class="contain-lignt mb-3 d-block">13:24 AM (1 hours ago)</small>
+                <p class="card-text">Hi David, by default, an image is rendered inline, like a letter so it sits on
+                  the<br> same line that a, b, c and d sit on. There is space below that line for the<br> descenders you
+                  find on letters like g, j, p and q.<br><br>You can: <br>• adjust the <code>vertical-align</code> of
+                  the image to position it elsewhere (e.g. the<br> mid <code>middle</code> )<br> • change the
+                  <code>display</code> so it isn’t inline.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4 card-edit d-none">
+            <div class="card-header d-flex align-items-center">
+              <h5 class="mr-4">Body Text <i class="material-icons mr-3">arrow_drop_down</i></h5>
+              <ul class="list-unstyled d-flex mb-0 align-items-center">
+                <li><i class="material-icons mr-4">format_bold</i></li>
+                <li><i class="material-icons mr-4">format_italic</i></li>
+                <li><i class="material-icons mr-4">format_list_bulleted</i></li>
+                <li><i class="material-icons mr-4">format_list_numbered</i></li>
+                <li><i class="material-icons mr-4">insert_photo</i></li>
+                <li><i class="material-icons mr-4">insert_link</i></li>
+                <li><i class="material-icons mr-4 icon-tranfrom">unfold_more</i></li>
+              </ul>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <div>
+                <p class="card-text card-text-b contain-lignt">Reply an answer…</p>
+              </div>
+              <div class="d-flex align-items-end">
+                <button type="button" class="btn  btn-bg-light mr-2 pr-4 pl-4 pt-2 pb-2 btn-cancel">Cancel</button>
+                <button type="button" class="btn  btn-bg-dark pr-4 pl-4 pt-2 pb-2">Reply</button>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center final-card mt-4 mb-4">
+            <div>
+              <a href="#"><i class="material-icons mr-4 ">keyboard_arrow_left</i></a>
+              <a href="#"><i class="material-icons mr-4 ">keyboard_arrow_right</i></a>
+            </div>
+            <div>
+              <button type="button" class="btn btn-bg-light mr-2 pr-4 pl-4 pt-2 pb-2">Mark as read</button>
+              <button type="button" class="btn btn-bg-dark pr-4 pl-4 pt-2 pb-2 outside-reply">Reply</button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .sidebar-item .active {
+    box-shadow: 4px 0px 0px 0px #2A8356 inset;
+    color: #2A8356;
+  }
+</style>
+
+    </section>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/jquery-3.1.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

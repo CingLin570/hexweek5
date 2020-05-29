@@ -1,0 +1,85 @@
+.assignment{
+    padding:0 2rem ;
+.assignment-title{
+    padding: 2rem 0; 
+}
+}
+.list-group{
+    .active{
+    color:$black;
+    background-color: $secondary;
+    border-color: $success;
+    }
+    .list-group-item:first-child{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .list-group-item:last-child{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    }
+    .list-group-item{
+        padding: 10px;
+    }
+}
+.problem{
+    .card-header{
+        background: $secondary;
+    }
+    .problem-icon-item1{
+        background: url(../images/icon1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .card-body{
+        padding: 1rem;
+    }
+    .problem-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .problem-card-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .problem-card-line{
+        border-bottom: 1px solid $success;
+    }
+    .icon-tranfrom{
+        transform: rotate(90deg);
+    }
+    .card-text-b{
+        height: 188px;
+    }
+    .card-relpy{
+        border-bottom: 1px solid $success ;
+    }
+}
+.problem-icon-item2{
+    background: url(../images/icon2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

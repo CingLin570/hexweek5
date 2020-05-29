@@ -1,0 +1,31 @@
+.sidebar{
+    background-color:$secondary;
+    padding: 2rem 0;
+    position: fixed;
+    top:0;
+    bottom:0;
+    width: 296px;
+    .sidebar-logo{
+        background: url(../images/logo-ANSWER.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-left: 2rem;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;  
+    }
+    .sidebar-item{
+        padding-left: 0;
+        a{
+            padding-left: 2rem;
+            line-height: 2rem;
+            &:hover{
+                text-decoration:none;
+                background-color: #CDDDCD;
+            }
+        }
+    }
+}
+.main{
+    margin-left: 296px;
+}
