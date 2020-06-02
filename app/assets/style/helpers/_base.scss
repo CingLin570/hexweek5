@@ -1,0 +1,30 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+ul,li,ol{
+  list-style: none;
+  margin-bottom: 0;
+}
+a:hover{
+  text-decoration: none;
+}
+p{
+  margin-bottom: 0;
+}
+code{
+  color: $green-dark;
+  background-color: $secondary;
+}
+.icon-color{
+  color:$green-dark;
+}
+.font-size-xs{
+  font-size:$font-size-xs;
+}
+.contain-lignt{
+  color: $contain-lignt;
+}
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- sidebar -->
+    <section class="wrap d-flex">
+    <aside class="sidebar primary d-flex flex-column justify-content-between">
+      <div>
+      <h1 class="sidebar-logo mb-4"><a href="#">answer</a></h1>
+    <ul class="sidebar-item list-unstyled">
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">insert_chart</i>Dashboard</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">question_answer</i>Question</a></li>
+      <li class="mb-4"><a href="index.html"class="d-flex align-items-center font-weight-bold active" data-sidebar="assignment"><i class="material-icons mr-3">assignment</i>Assignment</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">video_library</i>Course</a></li>
+      <li class="mb-4"><a href="admin.html"class="d-flex align-items-center font-weight-bold adactive" data-sidebar="admin"><i class="material-icons mr-3">people</i>Admin</a></li>
+      <li class="mb-4"><a href="#"class="d-flex align-items-center font-weight-bold"><i class="material-icons mr-3">settings</i>Settings</a></li>
+    </ul>
+  </div>
+  <div class="d-flex align-items-center ml-3 pl-3">
+    <div class="problem-icon-item2 mr-2"></div>
+    <div>
+    <p class="mb-0">Andy Chen</p>
+    <small class="contain-lignt">andy0401@mail.com</small>
+  </div>
+  </div>
+    </aside>
+    <%- contents %>
+
+    </section>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/jquery-3.1.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
